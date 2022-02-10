@@ -1,0 +1,53 @@
+.Blogs{
+    font-size: 16px;
+    color: #0c0707;
+    margin-left:40px;
+}
+.image-container {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        padding-bottom: 12px;
+    }
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+}
+
+#footer {
+    height: 300px;
+     font-size: 20px;
+ }
+ 
+ .footer-container {
+     height: 20px;
+     margin-bottom: 100px;
+     padding: 100px;
+ }
+ 
+ .footer-options {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
+ 
+ .footer-option {
+     margin-bottom: 100px;
+     text-align: center;
+ }
+ 
+ @media(max-width:768px) {
+     .footer-option {
+         width: 100%;
+     }
+ }
+ 
+ .footer-option a {
+     padding-top: 70px;
+     color: #f82a0f;
+ }
+ 

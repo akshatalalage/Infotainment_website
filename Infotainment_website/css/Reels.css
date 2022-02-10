@@ -1,0 +1,15 @@
+.Reels-options{
+    padding-left:15px;
+    padding-top:10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 70px;
+}
+
+.Shorts{
+    width: 1500px;
+     height:1000px;
+     margin-left: 40px;
+}

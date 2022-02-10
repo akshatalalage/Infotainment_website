@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    .profile-img-container {
+        text-align: center;
+        padding-bottom: 32px;
+    }
+}
+
+.profile-img {
+    color: #7d7d7d;
+    font-size: 75px;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+}
+
+.profile .name {
+    font-weight: bold;
+}
+
+.edit-profile {
+    font-size: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}

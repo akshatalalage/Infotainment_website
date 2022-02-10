@@ -1,0 +1,22 @@
+.banner-container {
+    background-image: url(../images/backgrd.jpg);
+    background-position: fixed;
+    box-shadow: inset 0 0 0 2000px #1c1c1c7a;
+    text-align: center;
+    padding: 100px 15px;
+   height: 600px;
+}
+
+@media (max-width: 768px) {
+    .banner-container {
+        padding: 1200px 15px;
+    }
+}
+.corousal-inner{
+    width: 100%;
+    height: 500px;
+}
+
+.city-heading {
+    text-align: center;
+}
